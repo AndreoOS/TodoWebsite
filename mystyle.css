@@ -1,0 +1,145 @@
+.todo {
+    background-color: #F5F5F5;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+}
+
+.title {
+    color: #EAD7D7;
+    margin: auto;
+    text-align: center;
+    font-size: 75px;
+}
+
+.content {
+    margin: auto;
+    width: 500px;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.input {
+    display: flex;
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    border-bottom: grey;
+    
+} 
+.checkall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+    font-size: 22px;
+    text-align: center;
+}
+input[type=text] {
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: x-large;
+    height: 95%;
+    
+}
+
+::placeholder {
+    font-style: italic;
+    font-weight: 600;
+    color: grey;
+    opacity: 0.2;
+  }
+
+.writeinput {
+    
+    width: 80%;
+    text-align: left;
+}
+
+.mockTodo {
+    border-top: 1px solid #E6E6E6;
+    color:#4D4D4D;
+    display: flex;
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.checkbx {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todoElement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.removeTodo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    color:rgb(175,91,94);
+    opacity: 0;
+}
+
+.removeTodo:hover {
+    opacity: 1;
+}
+
+.footer {
+    border-top: 1px solid #E6E6E6;
+    display: flex;
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #777777;
+}
+
+.leftTodos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+.filterTodos {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.cleardone {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: space-evenly;
+}
+
+.paper {
+    background: #fff;
+    box-shadow:
+      /* The top layer shadow */
+      0 1px 1px rgba(0,0,0,0.15),
+      /* The second layer */
+      0 10px 0 -5px #eee,
+      /* The second layer shadow */
+      0 10px 1px -4px rgba(0,0,0,0.15),
+       /* The third layer */
+      0 20px 0 -10px #eee,
+      /* The third layer shadow */
+      0 20px 1px -9px rgba(0,0,0,0.15);
+      /* Padding for demo purposes */
+    
+  }
